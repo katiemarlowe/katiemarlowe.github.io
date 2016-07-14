@@ -1,5 +1,5 @@
 body {
-    font: 400 15px Noto Sans, sans-serif;
+    font: 400 14px Noto Sans, sans-serif;
 }
 .navbar-inverse .navbar-nav>.active>a, 
 .navbar-inverse .navbar-nav>.active>a:focus, 
@@ -41,6 +41,12 @@ body {
 }
 .project {
     cursor: pointer;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+.project:hover{
+    background-color: gray;
+    background: rgba(0,0,0,.2);
 }
 #me{
     padding-top: 150px;
@@ -51,7 +57,13 @@ body {
 #about-list{
     display: inline-block;
     text-align: left;
-    width: 60%;
+    padding-left: 0px;
+    padding-right: 0px;
+    font-size: 12px;
+}
+#about{
+    padding-left: 2px;
+    padding-right: 2px;
 }
 .modal-header {
     background-color: #49274A;
@@ -75,4 +87,7 @@ a:link, a:visited {
 }
 a:hover { 
     color: #94618E;
+}
+.glyphicon {
+    font-size: 50px;
 }
