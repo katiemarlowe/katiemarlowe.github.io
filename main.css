@@ -42,7 +42,7 @@ body {
 .project {
     cursor: pointer;
     padding-top: 10px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 .project:hover{
     background-color: gray;
